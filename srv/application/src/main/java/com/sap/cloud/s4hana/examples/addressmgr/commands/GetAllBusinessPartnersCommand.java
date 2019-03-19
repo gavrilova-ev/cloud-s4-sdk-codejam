@@ -43,7 +43,7 @@ public class GetAllBusinessPartnersCommand extends CachingErpCommand<List<Busine
     protected List<BusinessPartner> runCacheable() throws Exception {
         return service.getAllBusinessPartner().select(BusinessPartner.BUSINESS_PARTNER, BusinessPartner.FIRST_NAME, BusinessPartner.LAST_NAME)
                 .filter(BusinessPartner.BUSINESS_PARTNER_CATEGORY.eq(CATEGORY_PERSON))
-                .execute();
+                .execute(); 
     }
 
     @Override
