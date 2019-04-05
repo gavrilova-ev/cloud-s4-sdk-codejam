@@ -42,8 +42,8 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'S4 Hana Cloud_i042557'
-        space: 'dev'
-        apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
+      - org: 'TechEd2018_CNA365-TechEd2018'
+        space: 'teched'
+        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         credentialsId: 'cf-deploy'
         
