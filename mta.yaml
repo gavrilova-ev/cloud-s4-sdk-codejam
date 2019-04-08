@@ -1,8 +1,8 @@
-ID: cloud-s4-sdk-book
+ID: address-manager-pipeline
 _schema-version: '2.0'
 version: 0.0.1
 modules:
- - name: srv-21
+ - name: address-manager-pipeline
    type: java
    path: srv
    parameters:
